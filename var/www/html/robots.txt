@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /
+Disallow: /4dm1nz
+Disallow: /mail
+Disallow: /b3nd3r4ch411
+
+# Penafian
+# Web Ini dicipta untuk TBD.My Challenge.
+# URL: https://forum.tbd.my/topic/13479/tbd-challenge-advance-web-hacking
+# Good Luck :)
+# - Rempah

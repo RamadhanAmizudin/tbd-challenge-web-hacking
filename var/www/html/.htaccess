@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} sqlmap [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} acunetix [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} scan [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} owasp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} dirbuster [NC]
+RewriteRule .* noscanner.txt [L]
+
+Options -Indexes 
